@@ -1,7 +1,16 @@
-@import "utils";
-@import "fonts";
-@import "typography";
+@import "./utils/variables";
+@import "./utils/mixins";
+@import "./utils/reset";
+@import "./utils/normalise";
 
-body {
-  background: $c-gray;
-}
+@import "./blocks/after-header.scss";
+@import "./blocks/about-our-brand.scss";
+@import "./blocks/shop.scss";
+@import "./blocks/about-the-creators.scss";
+@import "./blocks/ingredients.scss";
+@import "./blocks/contact-us.scss";
+
+@import "./blocks/page.scss";
+@import "./blocks/content.scss";
+@import "./blocks/header.scss";
+@import "./blocks/footer.scss";

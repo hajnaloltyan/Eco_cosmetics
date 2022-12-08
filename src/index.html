@@ -3,11 +3,72 @@
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Title</title>
+    <title>Eco Cosmetics</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link
+      rel="preconnect"
+      href="https://fonts.gstatic.com"
+      crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./styles/main.scss">
+    <script src="scripts/main.js" defer></script>
   </head>
-  <body>
-    <h1>Hello Mate Academy</h1>
-    <script type="text/javascript" src="scripts/main.js"></script>
+  <body class="page">
+    <!-- <h1>Brand of Eco-Cosmetics and Magic candles</h1> -->
+
+    <header></header>
+
+    <main class="page__content content">
+      <section class="content__contact-us contact-us" id="contact-us">
+        <h2 class="contact-us__title">
+          Contact us
+        </h2>
+
+        <p class="contact-us__text">
+          We will help you choose a product that suits you and answer any questions you might have.
+        </p>
+
+        <article class="contact-us__form">
+          <form action="example.htm">
+            <input
+              type="text"
+              name="name"
+              placeholder="Full Name"
+              class="contact-us__form-field"
+              required
+            >
+
+            <input
+              type="email"
+              name="email"
+              placeholder="E-mail"
+              class="contact-us__form-field"
+              required
+            >
+
+            <input
+              type="tel"
+              name="phone"
+              placeholder="Phone"
+              class="contact-us__form-field"
+              required
+            >
+
+            <textarea
+              name="message"
+              placeholder="Message"
+              required
+              class="contact-us__form-field contact-us__form-field--message"
+            ></textarea>
+
+            <button class="contact-us__form-send" type="submit">
+              Send a message
+            </button>
+          </form>
+        </article>
+      </section>
+    </main>
+
+    <footer></footer>
   </body>
 </html>
