@@ -1,1 +1,71 @@
-// comment
+.footer {
+  background-color: $light-green-color;
+  color: $page-background-color;
+  height: 468px;
+  padding: 30px 20px 40px;
+
+  &__nav {
+    margin-bottom: 20px;
+
+    &__items {
+      display: flex;
+      margin-bottom: 11px;
+
+      :hover {
+        color: $main-dark-color;
+      }
+    }
+
+    &__links {
+      font-size: 18px;
+      font-weight: 500;
+      line-height: 27px;
+
+      text-decoration: none;
+      text-transform: capitalize;
+
+      color: $page-background-color;
+    }
+  }
+
+  &__social {
+    margin-bottom: 40px;
+
+    &__logo {
+      text-decoration: none;
+    }
+  }
+
+  &__info {
+    margin-bottom: 40px;
+  }
+
+  &__info-data {
+    display: block;
+    text-decoration: none;
+    color: $page-background-color;
+
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+
+    margin-bottom: 10px;
+
+    :hover {
+      color: $main-dark-color;
+    }
+  }
+
+  &__copyright {
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 18px;
+
+    text-align: center;
+    text-transform: uppercase;
+  }
+}
+
+.instagram-logo {
+  margin-left: 20px;
+}
