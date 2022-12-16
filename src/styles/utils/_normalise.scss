@@ -1,4 +1,14 @@
 html {
-  overflow: hidden;
+  // overflow: hidden;
   scroll-behavior: smooth;
+}
+
+h2 {
+  font-size: 24px;
+  letter-spacing: 0.05em;
+  font-weight: 600;
+  line-height: 36px;
+  text-transform: uppercase;
+
+  color: $dark-green-color;
 }
