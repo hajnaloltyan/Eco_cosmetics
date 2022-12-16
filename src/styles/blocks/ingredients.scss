@@ -27,7 +27,20 @@
   }
 
   &__green-info {
-    font-size: 50px;
+    text-align: center;
 
+    &__logo {
+      margin-bottom: 20px;
+      width: 80px;
+      height: 80px;
+    }
+
+    &__text {
+      margin-bottom: 50px;
+
+      &:last-child {
+        margin-bottom: 100px;
+      }
+    }
   }
 }
