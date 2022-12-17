@@ -1,1 +1,32 @@
-// comment
+.about-our-brand {
+  &__title {
+    margin-bottom: 10px;
+  }
+
+  &__text {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+
+    margin-bottom: 30px;
+  }
+
+  &__more-info {
+    display: block;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+
+    text-transform: uppercase;
+    text-decoration-color: transparent;
+    text-underline-offset: 8px;
+    text-decoration-thickness: 1px;
+
+    color: $dark-green-color;
+    margin-bottom: 100px;
+
+    &:hover {
+      text-decoration-color: $dark-green-color;
+    }
+  }
+}

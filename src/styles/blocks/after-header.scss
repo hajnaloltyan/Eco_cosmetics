@@ -1,1 +1,15 @@
-// comment
+.after-header {
+  margin-top: 100px;
+
+  &__title {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 27px;
+
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: $dark-green-color;
+
+    margin-bottom: 100px;
+  }
+}
